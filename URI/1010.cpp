@@ -7,7 +7,7 @@ int main()
 
 	for (int i = 0; i < 2; ++i)
 	{
-		scanf("%i %i %lf", &a, &b, &c);
+		scanf("%d %d %lf", &a, &b, &c);
 		tmp = 0;
 
 		for (int j = 0; j < b; ++j)
@@ -16,7 +16,7 @@ int main()
 		res += tmp;
 	}
 
-	printf("VALOR A PAGAR: R$ %.2lf\n", res);
+	printf("VALOR A PAGAR: R$ %.2g\n", res);
 
 	return 0;
 }
