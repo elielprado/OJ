@@ -1,16 +1,12 @@
 #include <cstdio>
+using namespace std;
 
 int main()
 {
-	double val, count = 2;
-
-	for (int i = 2; i <= 100; ++i)
-	{
-		val = val + 1/count;
-		count++;
-	}
-	val++;
-
-	printf("%.2f\n", val);
+	double d = 0, i;
+	for (i = 1; i <= 100; ++i)
+		d += 1/i;
+		
+	printf("%.2lf\n", d);
 	return 0;
 }
